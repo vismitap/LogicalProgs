@@ -19,7 +19,8 @@ namespace LogicalPrograms
                 Console.WriteLine("Enter\n0 for Exit\n" +
                "1 for Fibonacci Series \n" +
                "2 for Perfect Number\n" +
-               "3 for Prime Number\n");
+               "3 for Prime Number\n" +
+               "4 for Reverse Number\n");
 
                 Console.WriteLine("****************\n");
 
@@ -46,6 +47,11 @@ namespace LogicalPrograms
                     case 3:
                         PrimeNumber primeNumber = new PrimeNumber();
                         primeNumber.isPrime();
+                        break;
+
+                    case 4:
+                        ReverseNumber reverseNumber = new ReverseNumber();
+                        reverseNumber.ReturnReverse();
                         break;
 
                 }
