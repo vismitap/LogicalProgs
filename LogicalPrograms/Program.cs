@@ -17,7 +17,8 @@ namespace LogicalPrograms
             {
                 Console.WriteLine("****************");
                 Console.WriteLine("Enter\n0 for Exit\n" +
-               "1 for Fibonacci Series \n");
+               "1 for Fibonacci Series \n" +
+               "2 for Perfect Number\n");
 
                 Console.WriteLine("****************\n");
 
@@ -34,6 +35,11 @@ namespace LogicalPrograms
                     case 1:
                         FibonacciSeries series = new FibonacciSeries();
                         series.GenerateFibonacciSeries();
+                        break;
+
+                    case 2:
+                        PerfectNumber perfectNumber = new PerfectNumber();
+                        perfectNumber.isPerfectNumber();
                         break;
 
                 }
