@@ -20,7 +20,8 @@ namespace LogicalPrograms
                "1 for Fibonacci Series \n" +
                "2 for Perfect Number\n" +
                "3 for Prime Number\n" +
-               "4 for Reverse Number\n");
+               "4 for Reverse Number\n" +
+               "5 for Coupon Generation\n");
 
                 Console.WriteLine("****************\n");
 
@@ -54,6 +55,10 @@ namespace LogicalPrograms
                         reverseNumber.ReturnReverse();
                         break;
 
+                    case 5:
+                        CouponGeneration coupon = new CouponGeneration();
+                        coupon.GenerateCoupon();
+                        break;
                 }
             }
         }
