@@ -8,7 +8,7 @@ namespace LogicalPrograms
 {
     internal class PrimeNumber
     {
-        public void isPrime()
+        public void IsPrime()
         {
             Console.WriteLine("Enter any number: ");
             int num = Convert.ToInt32(Console.ReadLine());

@@ -45,12 +45,12 @@ namespace LogicalPrograms
 
                     case 2:
                         PerfectNumber perfectNumber = new PerfectNumber();
-                        perfectNumber.isPerfectNumber();
+                        perfectNumber.IsPerfectNumber();
                         break;
 
                     case 3:
                         PrimeNumber primeNumber = new PrimeNumber();
-                        primeNumber.isPrime();
+                        primeNumber.IsPrime();
                         break;
 
                     case 4:
@@ -70,7 +70,7 @@ namespace LogicalPrograms
 
                     case 7:
                         DayofWeek day = new DayofWeek();
-                        day.determineDayOfWeek();
+                        day.DetermineDayOfWeek();
                         break;
 
                     case 8:
