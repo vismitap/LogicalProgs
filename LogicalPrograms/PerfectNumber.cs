@@ -9,7 +9,7 @@ namespace LogicalPrograms
     internal class PerfectNumber
     {
         int sum = 0;
-        public void isPerfectNumber()
+        public void IsPerfectNumber()
         {
             Console.WriteLine("Enter any number: ");
             int num = Convert.ToInt32(Console.ReadLine());

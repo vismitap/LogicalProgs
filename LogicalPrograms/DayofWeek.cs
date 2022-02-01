@@ -8,7 +8,7 @@ namespace LogicalPrograms
 {
     public class DayofWeek
     {
-        public void determineDayOfWeek()
+        public void DetermineDayOfWeek()
         {
             Console.WriteLine("Enter any year: ");
             int year = Convert.ToInt32(Console.ReadLine());
