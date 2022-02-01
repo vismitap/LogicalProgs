@@ -25,7 +25,8 @@ namespace LogicalPrograms
                "6 for Stop Watch\n" +
                "7 for Day of Week\n" +
                "8 for Temperature Conversion\n" +
-               "9 for Monthly Payment\n");
+               "9 for Monthly Payment\n" +
+               "10 for Square Root\n");
 
                 Console.WriteLine("****************\n");
 
@@ -82,6 +83,11 @@ namespace LogicalPrograms
                     case 9:
                         MonthlyPayment pay = new MonthlyPayment();
                         pay.CalMonthlyPayment();
+                        break;
+
+                    case 10:
+                        SquareRoot root = new SquareRoot();
+                        root.CalSquareRoot();
                         break;
                 }
             }
