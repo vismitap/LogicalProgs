@@ -21,7 +21,8 @@ namespace LogicalPrograms
                "2 for Perfect Number\n" +
                "3 for Prime Number\n" +
                "4 for Reverse Number\n" +
-               "5 for Coupon Generation\n");
+               "5 for Coupon Generation\n" +
+               "6 for Stop Watch\n");
 
                 Console.WriteLine("****************\n");
 
@@ -58,6 +59,11 @@ namespace LogicalPrograms
                     case 5:
                         CouponGeneration coupon = new CouponGeneration();
                         coupon.GenerateCoupon();
+                        break;
+
+                    case 6:
+                        StopWatch watch = new StopWatch();
+                        watch.SimulateStopWatch();
                         break;
                 }
             }
