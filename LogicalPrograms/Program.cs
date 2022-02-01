@@ -24,7 +24,8 @@ namespace LogicalPrograms
                "5 for Coupon Generation\n" +
                "6 for Stop Watch\n" +
                "7 for Day of Week\n" +
-               "8 for Temperature Conversion");
+               "8 for Temperature Conversion\n" +
+               "9 for Monthly Payment\n");
 
                 Console.WriteLine("****************\n");
 
@@ -76,6 +77,11 @@ namespace LogicalPrograms
                     case 8:
                         TemperatureConversion temp = new TemperatureConversion();
                         temp.ConvertTemperature();
+                        break;
+
+                    case 9:
+                        MonthlyPayment pay = new MonthlyPayment();
+                        pay.CalMonthlyPayment();
                         break;
                 }
             }
