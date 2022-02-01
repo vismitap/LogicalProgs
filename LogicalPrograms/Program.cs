@@ -15,7 +15,7 @@ namespace LogicalPrograms
             bool flag = true;
             while (flag)
             {
-                Console.WriteLine("****************");
+                Console.WriteLine("\n****************");
                 Console.WriteLine("Enter\n0 for Exit\n" +
                "1 for Fibonacci Series \n" +
                "2 for Perfect Number\n" +
@@ -23,12 +23,13 @@ namespace LogicalPrograms
                "4 for Reverse Number\n" +
                "5 for Coupon Generation\n" +
                "6 for Stop Watch\n" +
-               "7 for Day of Week\n");
+               "7 for Day of Week\n" +
+               "8 for Temperature Conversion");
 
                 Console.WriteLine("****************\n");
 
                 Console.WriteLine("Enter your option: ");
-                int option = Convert.ToInt32(Console.ReadLine());
+                int option = Convert.ToInt32(Console.ReadLine()+"\n");
 
 
                 switch (option)
@@ -70,6 +71,11 @@ namespace LogicalPrograms
                     case 7:
                         DayofWeek day = new DayofWeek();
                         day.DetermineDayOfWeek();
+                        break;
+
+                    case 8:
+                        TemperatureConversion temp = new TemperatureConversion();
+                        temp.ConvertTemperature();
                         break;
                 }
             }
