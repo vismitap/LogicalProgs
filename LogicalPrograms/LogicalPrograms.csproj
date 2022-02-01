@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CouponGeneration.cs" />
+    <Compile Include="DayofWeek.cs" />
     <Compile Include="FibonacciSeries.cs" />
     <Compile Include="PerfectNumber.cs" />
     <Compile Include="PrimeNumber.cs" />

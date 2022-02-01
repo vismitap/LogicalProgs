@@ -22,7 +22,8 @@ namespace LogicalPrograms
                "3 for Prime Number\n" +
                "4 for Reverse Number\n" +
                "5 for Coupon Generation\n" +
-               "6 for Stop Watch\n");
+               "6 for Stop Watch\n" +
+               "7 for Day of Week\n");
 
                 Console.WriteLine("****************\n");
 
@@ -64,6 +65,11 @@ namespace LogicalPrograms
                     case 6:
                         StopWatch watch = new StopWatch();
                         watch.SimulateStopWatch();
+                        break;
+
+                    case 7:
+                        DayofWeek day = new DayofWeek();
+                        day.determineDayOfWeek();
                         break;
                 }
             }
